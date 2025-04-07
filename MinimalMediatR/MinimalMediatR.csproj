@@ -4,6 +4,15 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>MinimalMediatR</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Adnan Ertörer</Authors>
+    <Company>Adoroid</Company>
+    <Description>A minimal and extensible MediatR alternative for .NET.</Description>
+    <PackageTags>mediator;mediatr;minimal;pipeline;dotnet</PackageTags>
+    <RepositoryUrl>https://github.com/adnanertorer/MinimalMediatR</RepositoryUrl> <!-- GitHub repo adresin -->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
