@@ -1,0 +1,12 @@
+/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/bin/Debug/net9.0/MinimalMediatR.deps.json
+/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/bin/Debug/net9.0/MinimalMediatR.dll
+/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/bin/Debug/net9.0/MinimalMediatR.pdb
+/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/obj/Debug/net9.0/MinimalMediatR.csproj.AssemblyReference.cache
+/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/obj/Debug/net9.0/MinimalMediatR.GeneratedMSBuildEditorConfig.editorconfig
+/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/obj/Debug/net9.0/MinimalMediatR.AssemblyInfoInputs.cache
+/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/obj/Debug/net9.0/MinimalMediatR.AssemblyInfo.cs
+/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/obj/Debug/net9.0/MinimalMediatR.csproj.CoreCompileInputs.cache
+/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/obj/Debug/net9.0/MinimalMediatR.dll
+/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/obj/Debug/net9.0/refint/MinimalMediatR.dll
+/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/obj/Debug/net9.0/MinimalMediatR.pdb
+/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/obj/Debug/net9.0/ref/MinimalMediatR.dll
