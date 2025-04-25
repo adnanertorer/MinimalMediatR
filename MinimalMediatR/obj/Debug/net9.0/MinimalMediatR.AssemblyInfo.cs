@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A minimal and extensible MediatR alternative for .NET.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+9a087480ca294897c81b1541ecef615fa8775c4d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+8488a43b4fd89ebbf031df0c2ce8253d03855dbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinimalMediatR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinimalMediatR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
