@@ -38,7 +38,10 @@ public class MediatorTest
     [Fact]
     public async Task GetUserQuery_Should_Return_User()
     {
-        var result = await _mediator.Send(new GetUserQuery { Id = 1 }, CancellationToken.None);
+        var result = await _mediator.Send(new  GetUserQuery()
+        {
+            Id = 1
+        });
 
         Assert.NotNull(result);
         Assert.Equal(1, result.Id);
