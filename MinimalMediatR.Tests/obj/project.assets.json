@@ -751,7 +751,7 @@
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "MinimalMediatR/1.0.2": {
+      "MinimalMediatR/1.0.3": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -1813,7 +1813,7 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "MinimalMediatR/1.0.2": {
+    "MinimalMediatR/1.0.3": {
       "type": "project",
       "path": "../MinimalMediatR/MinimalMediatR.csproj",
       "msbuildProject": "../MinimalMediatR/MinimalMediatR.csproj"
@@ -1826,7 +1826,7 @@
       "Microsoft.Extensions.DependencyInjection >= 9.0.3",
       "Microsoft.Extensions.Logging.Console >= 9.0.3",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
-      "MinimalMediatR >= 1.0.2",
+      "MinimalMediatR >= 1.0.3",
       "coverlet.collector >= 6.0.2",
       "xunit >= 2.9.2",
       "xunit.runner.visualstudio >= 2.8.2"

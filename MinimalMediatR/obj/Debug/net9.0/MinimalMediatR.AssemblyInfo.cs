@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Adoroid")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A minimal and extensible MediatR alternative for .NET.")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.2+2a92ed3cf8009b98418c3e8b749a039e8e817ed0")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.3.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.3+92aa2602affc05dbbd98beaa98bfb32905cb7d6f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinimalMediatR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinimalMediatR")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.2.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.3.0")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/adnanertorer/MinimalMediatR")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.

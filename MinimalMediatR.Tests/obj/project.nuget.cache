@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XP/mlhPrli4=",
+  "dgSpecHash": "A0Ypoj3omiU=",
   "success": true,
   "projectFilePath": "D:\\repos\\MinimalMediatR\\MinimalMediatR.Tests\\MinimalMediatR.Tests.csproj",
   "expectedPackageFiles": [
@@ -36,8 +36,7 @@
     "C:\\Users\\adnan\\.nuget\\packages\\xunit.core\\2.9.2\\xunit.core.2.9.2.nupkg.sha512",
     "C:\\Users\\adnan\\.nuget\\packages\\xunit.extensibility.core\\2.9.2\\xunit.extensibility.core.2.9.2.nupkg.sha512",
     "C:\\Users\\adnan\\.nuget\\packages\\xunit.extensibility.execution\\2.9.2\\xunit.extensibility.execution.2.9.2.nupkg.sha512",
-    "C:\\Users\\adnan\\.nuget\\packages\\xunit.runner.visualstudio\\2.8.2\\xunit.runner.visualstudio.2.8.2.nupkg.sha512",
-    "C:\\Users\\adnan\\.nuget\\packages\\minimalmediatr\\1.0.2\\minimalmediatr.1.0.2.nupkg.sha512"
+    "C:\\Users\\adnan\\.nuget\\packages\\xunit.runner.visualstudio\\2.8.2\\xunit.runner.visualstudio.2.8.2.nupkg.sha512"
   ],
   "logs": []
 }
