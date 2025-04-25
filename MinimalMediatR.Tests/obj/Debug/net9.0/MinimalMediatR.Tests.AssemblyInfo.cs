@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MinimalMediatR.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5723b70b34a9125110b9bf42236a461561bf86cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+094acc23a4dba4fd543bfb4a2085ff2e95987710")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinimalMediatR.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinimalMediatR.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
