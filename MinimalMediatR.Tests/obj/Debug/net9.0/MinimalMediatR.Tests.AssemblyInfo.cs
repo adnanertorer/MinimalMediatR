@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MinimalMediatR.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+188202e6dc369b53abc930c46d295c3ec901606a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a087480ca294897c81b1541ecef615fa8775c4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinimalMediatR.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinimalMediatR.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
