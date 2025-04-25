@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "MinimalMediatR/1.0.1": {
+      "MinimalMediatR/1.0.2": {
         "dependencies": {
           "Microsoft.Extensions.Logging": "9.0.3"
         },
@@ -80,7 +80,7 @@
     }
   },
   "libraries": {
-    "MinimalMediatR/1.0.1": {
+    "MinimalMediatR/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

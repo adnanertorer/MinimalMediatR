@@ -1,4 +1,4 @@
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 
 namespace MinimalMediatR.Core;
 
@@ -9,8 +9,11 @@ public class Mediator(IServiceProvider serviceProvider) : IMediator
     {
         ArgumentNullException.ThrowIfNull(request);
 
-        var handler = GetHandler<TRequest, TResponse>();
-        var behaviors = GetBehaviors<TRequest, TResponse>();
+        using var scope = serviceProvider.CreateScope(); 
+        var scopedProvider = scope.ServiceProvider;
+
+        var handler = GetHandler<TRequest, TResponse>(scopedProvider);
+        var behaviors = GetBehaviors<TRequest, TResponse>(scopedProvider);
 
         Func<Task<TResponse>> handlerInvocation = () => handler.Handle(request, cancellationToken);
 
@@ -23,20 +26,24 @@ public class Mediator(IServiceProvider serviceProvider) : IMediator
         return await handlerInvocation();
     }
 
-    public async Task Publish<TNotification>(TNotification notification, CancellationToken cancellationToken = default) where TNotification : INotification
+    public async Task Publish<TNotification>(TNotification notification, CancellationToken cancellationToken = default)
+        where TNotification : INotification
     {
         ArgumentNullException.ThrowIfNull(notification);
 
-        var handlers = serviceProvider.GetServices<INotificationHandler<TNotification>>();
+        using var scope = serviceProvider.CreateScope(); 
+        var scopedProvider = scope.ServiceProvider;
+
+        var handlers = scopedProvider.GetServices<INotificationHandler<TNotification>>();
 
         var tasks = handlers.Select(handler => handler.Handle(notification, cancellationToken));
         await Task.WhenAll(tasks);
     }
 
-    private IRequestHandler<TRequest, TResponse> GetHandler<TRequest, TResponse>()
-        where TRequest : IRequest<TResponse>
+    private IRequestHandler<TRequest, TResponse> GetHandler<TRequest, TResponse>(IServiceProvider scopedProvider)
+       where TRequest : IRequest<TResponse>
     {
-        var handler = serviceProvider.GetService<IRequestHandler<TRequest, TResponse>>();
+        var handler = scopedProvider.GetService<IRequestHandler<TRequest, TResponse>>();
 
         if (handler == null)
         {
@@ -46,9 +53,9 @@ public class Mediator(IServiceProvider serviceProvider) : IMediator
         return handler;
     }
 
-    private IEnumerable<IPipelineBehavior<TRequest, TResponse>> GetBehaviors<TRequest, TResponse>()
+    private IEnumerable<IPipelineBehavior<TRequest, TResponse>> GetBehaviors<TRequest, TResponse>(IServiceProvider scopedProvider)
         where TRequest : IRequest<TResponse>
     {
-        return serviceProvider.GetServices<IPipelineBehavior<TRequest, TResponse>>();
+        return scopedProvider.GetServices<IPipelineBehavior<TRequest, TResponse>>();
     }
 }

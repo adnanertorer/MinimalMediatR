@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR.Tests/MinimalMediatR.Tests.csproj": {}
+    "D:\\repos\\MinimalMediatR\\MinimalMediatR.Tests\\MinimalMediatR.Tests.csproj": {}
   },
   "projects": {
-    "/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR.Tests/MinimalMediatR.Tests.csproj": {
+    "D:\\repos\\MinimalMediatR\\MinimalMediatR.Tests\\MinimalMediatR.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR.Tests/MinimalMediatR.Tests.csproj",
+        "projectUniqueName": "D:\\repos\\MinimalMediatR\\MinimalMediatR.Tests\\MinimalMediatR.Tests.csproj",
         "projectName": "MinimalMediatR.Tests",
-        "projectPath": "/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR.Tests/MinimalMediatR.Tests.csproj",
-        "packagesPath": "/home/adnanertorer/.nuget/packages/",
-        "outputPath": "/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR.Tests/obj/",
+        "projectPath": "D:\\repos\\MinimalMediatR\\MinimalMediatR.Tests\\MinimalMediatR.Tests.csproj",
+        "packagesPath": "C:\\Users\\adnan\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\MinimalMediatR\\MinimalMediatR.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/adnanertorer/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\adnan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/MinimalMediatR.csproj": {
-                "projectPath": "/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/MinimalMediatR.csproj"
+              "D:\\repos\\MinimalMediatR\\MinimalMediatR\\MinimalMediatR.csproj": {
+                "projectPath": "D:\\repos\\MinimalMediatR\\MinimalMediatR\\MinimalMediatR.csproj"
               }
             }
           }
@@ -97,26 +103,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/MinimalMediatR.csproj": {
-      "version": "1.0.1",
+    "D:\\repos\\MinimalMediatR\\MinimalMediatR\\MinimalMediatR.csproj": {
+      "version": "1.0.2",
       "restore": {
-        "projectUniqueName": "/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/MinimalMediatR.csproj",
+        "projectUniqueName": "D:\\repos\\MinimalMediatR\\MinimalMediatR\\MinimalMediatR.csproj",
         "projectName": "MinimalMediatR",
-        "projectPath": "/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/MinimalMediatR.csproj",
-        "packagesPath": "/home/adnanertorer/.nuget/packages/",
-        "outputPath": "/home/adnanertorer/Documents/repos/MinimalMediatR/MinimalMediatR/obj/",
+        "projectPath": "D:\\repos\\MinimalMediatR\\MinimalMediatR\\MinimalMediatR.csproj",
+        "packagesPath": "C:\\Users\\adnan\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\MinimalMediatR\\MinimalMediatR\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/adnanertorer/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\adnan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -162,7 +174,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
