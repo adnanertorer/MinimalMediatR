@@ -26,7 +26,7 @@ public static class ServiceCollectionExtensions
                     definition == typeof(INotificationHandler<>) ||
                     definition == typeof(IPipelineBehavior<,>))
                 {
-                    services.AddTransient(handlerInterface, type);
+                    services.AddScoped(handlerInterface, type);
                 }
             }
         }
